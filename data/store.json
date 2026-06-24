@@ -1,1049 +1,833 @@
-{
-  "menu": [
-    {
-      "id": "m1",
-      "name": "Kamalak Foreli ",
-      "category": "baliq",
-      "price": 155000,
-      "size": "1 kg",
-      "description": "Jasmin baliqxonasining eng mashhur taomlaridan biri. Kamalak foreli o'choq olovida, maxsus zirvorlar va limon marinadi bilan butunligicha grilda pishiriladi.",
-      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&auto=format&fit=crop&q=80",
-      "available": true,
-      "isMultipleSizes": false
-    },
-    {
-      "id": "m2",
-      "name": "Sazan Baliq (Qovurilgan Farg'ona uslubi)",
-      "category": "baliq",
-      "price": 119999,
-      "size": "1 kg",
-      "description": "Daryodan yangi tutilgan Sazan balig'i suyaklaridan ajratilib, maxsus sariyog' va un kombinatsiyasida o'ta qarsildoq qilib qovuriladi. Sarimsoqli qayla bilan beriladi.",
-      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=600&auto=format&fit=crop&q=80",
-      "available": true,
-      "isMultipleSizes": false
-    },
-    {
-      "id": "m3",
-      "name": "Daryo Som (Pechda dumlangan)",
-      "category": "baliq",
-      "price": 115000,
-      "size": "1 kg",
-      "description": "Yumshoq va yog'li som balig'ining dumi piyoz, pomidor va maxsus ko'katlar hamrohligida pechda dimlanadi. Labingizda eriydi.",
-      "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "m4",
-      "name": "Sudak Kabob (Shashlik)",
-      "category": "baliq",
-      "price": 105000,
-      "size": "1 kg",
-      "description": "Sershira sudak balig'i go'shti kubik qilib kesilib, to'g'ralgan limonga marinadlanadi va cho'g'da ohista pishiriladi. Kam yog'li, parhezbop.",
-      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "m5",
-      "name": "Haqiqiy Achichuk",
-      "category": "salatlar",
-      "price": 16000,
-      "size": "1 portsiya",
-      "description": "Yangi shirin Farg'ona pomidorlari, yupqa to'g'ralgan piyoz va achchiq qalampir murchi bilan birga tayyorlangan an'anaviy baliqbozlik salati.",
-      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "m6",
-      "name": "Voha Salati (Oasis)",
-      "category": "salatlar",
-      "price": 22000,
-      "size": "1 portsiya",
-      "description": "Bodring, ko'k no'xat, makkajo'xori, sarxil ko'katlar va maxsus zaytun moyli sous solingan tetiklashtiruvchi salat.",
-      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&auto=format&fit=crop&q=80",
-      "available": true,
-      "isMultipleSizes": false
-    },
-    {
-      "id": "m7",
-      "name": "Kartoshka Fri",
-      "category": "yonlar",
-      "price": 18000,
-      "size": "1 portsiya",
-      "description": "Ushbu oltin qarsildoq kartoshkalar baliq go'shtiga eng ajoyib garnir hisoblanadi. Tomat-chesnok sousi tekin qo'shib beriladi.",
-      "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "m8",
-      "name": "Sarimsoqli Baliq Sousi",
-      "category": "yonlar",
-      "price": 8000,
-      "size": "1 idish",
-      "description": "Jasmin uy sharoitida tayyorlangan maxsus sarimsoq, yashil kashnich, kislotali limon va sariyog'li sous.",
-      "image": "https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "m9",
-      "name": "O'choq Issiq Non",
-      "category": "non",
-      "price": 6000,
-      "size": "1 dona",
-      "description": "Baliqxonamiz tandirida tayyorlangan qarsildoq, kunjut sepilgan issiq Uzbek noni.",
-      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "m10",
-      "name": "Limonli Ko'k Choy",
-      "category": "ichimliklar",
-      "price": 12000,
-      "size": "1 choynak",
-      "description": "Chinni choynakda damlangan yangi limon tilimlari va asal bilan boyitilgan, baliqdan keyin hazm qilishga eng yaxshi ko'k choy.",
-      "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "m11",
-      "name": "Jasmin Maxsus Lemonadi",
-      "category": "ichimliklar",
-      "price": 25000,
-      "size": "1 litr",
-      "description": "Yalpiz barglari, yangi siqilgan limon va apelsin sharbatidan tayyorlanadigan tetiklashtiruvchi sovuq ichimlik.",
-      "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "m_1782282733398",
-      "name": "test",
-      "category": "baliq",
-      "price": 10000,
-      "description": "",
-      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=600&auto=format&fit=crop&q=80",
-      "available": true,
-      "size": "1 portsiya"
-    }
-  ],
-  "rooms": [
-    {
-      "id": "t1",
-      "name": "Tapchan #1",
-      "type": "tapchan",
-      "capacity": 10,
-      "priceBooking": 25000,
-      "description": "Shinam va go'zal an'anaviy o'zbekona tapchan. Atrof yashillik bilan o'ralgan va shinam ko'rpachalar bor. Maks. 10 kishi uchun.",
-      "features": [
-        "Shinam muhit",
-        "Yumshoq yostiqlar",
-        "Telefon zaryadlash moslamasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "t2",
-      "name": "Tapchan #2",
-      "type": "tapchan",
-      "capacity": 10,
-      "priceBooking": 25000,
-      "description": "Shinam va go'zal an'anaviy o'zbekona tapchan. Atrof yashillik bilan o'ralgan va shinam ko'rpachalar bor. Maks. 10 kishi uchun.",
-      "features": [
-        "Shinam muhit",
-        "Yumshoq yostiqlar",
-        "Telefon zaryadlash moslamasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "t3",
-      "name": "Tapchan #3",
-      "type": "tapchan",
-      "capacity": 10,
-      "priceBooking": 25000,
-      "description": "Shinam va go'zal an'anaviy o'zbekona tapchan. Atrof yashillik bilan o'ralgan va shinam ko'rpachalar bor. Maks. 10 kishi uchun.",
-      "features": [
-        "Shinam muhit",
-        "Yumshoq yostiqlar",
-        "Telefon zaryadlash moslamasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "t4",
-      "name": "Tapchan #4",
-      "type": "tapchan",
-      "capacity": 10,
-      "priceBooking": 25000,
-      "description": "Shinam va go'zal an'anaviy o'zbekona tapchan. Atrof yashillik bilan o'ralgan va shinam ko'rpachalar bor. Maks. 10 kishi uchun.",
-      "features": [
-        "Shinam muhit",
-        "Yumshoq yostiqlar",
-        "Telefon zaryadlash moslamasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "t5",
-      "name": "Tapchan #5",
-      "type": "tapchan",
-      "capacity": 10,
-      "priceBooking": 25000,
-      "description": "Shinam va go'zal an'anaviy o'zbekona tapchan. Atrof yashillik bilan o'ralgan va shinam ko'rpachalar bor. Maks. 10 kishi uchun.",
-      "features": [
-        "Shinam muhit",
-        "Yumshoq yostiqlar",
-        "Telefon zaryadlash moslamasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "t6",
-      "name": "Tapchan #6",
-      "type": "tapchan",
-      "capacity": 10,
-      "priceBooking": 25000,
-      "description": "Shinam va go'zal an'anaviy o'zbekona tapchan. Atrof yashillik bilan o'ralgan va shinam ko'rpachalar bor. Maks. 10 kishi uchun.",
-      "features": [
-        "Shinam muhit",
-        "Yumshoq yostiqlar",
-        "Telefon zaryadlash moslamasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "t7",
-      "name": "Tapchan #7",
-      "type": "tapchan",
-      "capacity": 10,
-      "priceBooking": 25000,
-      "description": "Shinam va go'zal an'anaviy o'zbekona tapchan. Atrof yashillik bilan o'ralgan va shinam ko'rpachalar bor. Maks. 10 kishi uchun.",
-      "features": [
-        "Shinam muhit",
-        "Yumshoq yostiqlar",
-        "Telefon zaryadlash moslamasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "t8",
-      "name": "Tapchan #8",
-      "type": "tapchan",
-      "capacity": 10,
-      "priceBooking": 25000,
-      "description": "Shinam va go'zal an'anaviy o'zbekona tapchan. Atrof yashillik bilan o'ralgan va shinam ko'rpachalar bor. Maks. 10 kishi uchun.",
-      "features": [
-        "Shinam muhit",
-        "Yumshoq yostiqlar",
-        "Telefon zaryadlash moslamasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "t9",
-      "name": "Tapchan #9",
-      "type": "tapchan",
-      "capacity": 10,
-      "priceBooking": 25000,
-      "description": "Shinam va go'zal an'anaviy o'zbekona tapchan. Atrof yashillik bilan o'ralgan va shinam ko'rpachalar bor. Maks. 10 kishi uchun.",
-      "features": [
-        "Shinam muhit",
-        "Yumshoq yostiqlar",
-        "Telefon zaryadlash moslamasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "t10",
-      "name": "Tapchan #10",
-      "type": "tapchan",
-      "capacity": 10,
-      "priceBooking": 25000,
-      "description": "Shinam va go'zal an'anaviy o'zbekona tapchan. Atrof yashillik bilan o'ralgan va shinam ko'rpachalar bor. Maks. 10 kishi uchun.",
-      "features": [
-        "Shinam muhit",
-        "Yumshoq yostiqlar",
-        "Telefon zaryadlash moslamasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "r1",
-      "name": "VIP Shoxona Xona #1 (8 kishilik)",
-      "type": "kabinka",
-      "capacity": 8,
-      "priceBooking": 30000,
-      "description": "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
-      "features": [
-        "Kuchli Konditsioner",
-        "Shinam yumshoq divanlar",
-        "Fayzli o'zbekona dizayn",
-        "Keng oilaviy stol",
-        "Shovqin izolatsiyasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "r2",
-      "name": "VIP Shoxona Xona #2 (8 kishilik)",
-      "type": "kabinka",
-      "capacity": 8,
-      "priceBooking": 30000,
-      "description": "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
-      "features": [
-        "Kuchli Konditsioner",
-        "Shinam yumshoq divanlar",
-        "Fayzli o'zbekona dizayn",
-        "Keng oilaviy stol",
-        "Shovqin izolatsiyasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "r3",
-      "name": "VIP Shoxona Xona #3 (8 kishilik)",
-      "type": "kabinka",
-      "capacity": 8,
-      "priceBooking": 30000,
-      "description": "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
-      "features": [
-        "Kuchli Konditsioner",
-        "Shinam yumshoq divanlar",
-        "Fayzli o'zbekona dizayn",
-        "Keng oilaviy stol",
-        "Shovqin izolatsiyasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "r4",
-      "name": "VIP Shoxona Xona #4 (8 kishilik)",
-      "type": "kabinka",
-      "capacity": 8,
-      "priceBooking": 30000,
-      "description": "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
-      "features": [
-        "Kuchli Konditsioner",
-        "Shinam yumshoq divanlar",
-        "Fayzli o'zbekona dizayn",
-        "Keng oilaviy stol",
-        "Shovqin izolatsiyasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "r5",
-      "name": "VIP Shoxona Xona #5 (8 kishilik)",
-      "type": "kabinka",
-      "capacity": 8,
-      "priceBooking": 30000,
-      "description": "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
-      "features": [
-        "Kuchli Konditsioner",
-        "Shinam yumshoq divanlar",
-        "Fayzli o'zbekona dizayn",
-        "Keng oilaviy stol",
-        "Shovqin izolatsiyasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "r6",
-      "name": "VIP Shoxona Xona #6 (8 kishilik)",
-      "type": "kabinka",
-      "capacity": 8,
-      "priceBooking": 30000,
-      "description": "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
-      "features": [
-        "Kuchli Konditsioner",
-        "Shinam yumshoq divanlar",
-        "Fayzli o'zbekona dizayn",
-        "Keng oilaviy stol",
-        "Shovqin izolatsiyasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "r7",
-      "name": "VIP Shoxona Xona #7 (8 kishilik)",
-      "type": "kabinka",
-      "capacity": 8,
-      "priceBooking": 30000,
-      "description": "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
-      "features": [
-        "Kuchli Konditsioner",
-        "Shinam yumshoq divanlar",
-        "Fayzli o'zbekona dizayn",
-        "Keng oilaviy stol",
-        "Shovqin izolatsiyasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "r8",
-      "name": "VIP Shoxona Xona #8 (8 kishilik)",
-      "type": "kabinka",
-      "capacity": 8,
-      "priceBooking": 30000,
-      "description": "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
-      "features": [
-        "Kuchli Konditsioner",
-        "Shinam yumshoq divanlar",
-        "Fayzli o'zbekona dizayn",
-        "Keng oilaviy stol",
-        "Shovqin izolatsiyasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "r9",
-      "name": "VIP Shoxona Xona #9 (8 kishilik)",
-      "type": "kabinka",
-      "capacity": 8,
-      "priceBooking": 30000,
-      "description": "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
-      "features": [
-        "Kuchli Konditsioner",
-        "Shinam yumshoq divanlar",
-        "Fayzli o'zbekona dizayn",
-        "Keng oilaviy stol",
-        "Shovqin izolatsiyasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "r10",
-      "name": "VIP Shoxona Xona #10 (8 kishilik)",
-      "type": "kabinka",
-      "capacity": 8,
-      "priceBooking": 30000,
-      "description": "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
-      "features": [
-        "Kuchli Konditsioner",
-        "Shinam yumshoq divanlar",
-        "Fayzli o'zbekona dizayn",
-        "Keng oilaviy stol",
-        "Shovqin izolatsiyasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "r11",
-      "name": "VIP Shoxona Xona #11 (8 kishilik)",
-      "type": "kabinka",
-      "capacity": 8,
-      "priceBooking": 30000,
-      "description": "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
-      "features": [
-        "Kuchli Konditsioner",
-        "Shinam yumshoq divanlar",
-        "Fayzli o'zbekona dizayn",
-        "Keng oilaviy stol",
-        "Shovqin izolatsiyasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "r12",
-      "name": "VIP Shoxona Xona #12 (8 kishilik)",
-      "type": "kabinka",
-      "capacity": 8,
-      "priceBooking": 30000,
-      "description": "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
-      "features": [
-        "Kuchli Konditsioner",
-        "Shinam yumshoq divanlar",
-        "Fayzli o'zbekona dizayn",
-        "Keng oilaviy stol",
-        "Shovqin izolatsiyasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "r13",
-      "name": "VIP Shoxona Xona #13 (8 kishilik)",
-      "type": "kabinka",
-      "capacity": 8,
-      "priceBooking": 30000,
-      "description": "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
-      "features": [
-        "Kuchli Konditsioner",
-        "Shinam yumshoq divanlar",
-        "Fayzli o'zbekona dizayn",
-        "Keng oilaviy stol",
-        "Shovqin izolatsiyasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "r14",
-      "name": "VIP Shoxona Xona #14 (8 kishilik)",
-      "type": "kabinka",
-      "capacity": 8,
-      "priceBooking": 30000,
-      "description": "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
-      "features": [
-        "Kuchli Konditsioner",
-        "Shinam yumshoq divanlar",
-        "Fayzli o'zbekona dizayn",
-        "Keng oilaviy stol",
-        "Shovqin izolatsiyasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "r15",
-      "name": "VIP Shoxona Xona #15 (8 kishilik)",
-      "type": "kabinka",
-      "capacity": 8,
-      "priceBooking": 30000,
-      "description": "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
-      "features": [
-        "Kuchli Konditsioner",
-        "Shinam yumshoq divanlar",
-        "Fayzli o'zbekona dizayn",
-        "Keng oilaviy stol",
-        "Shovqin izolatsiyasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "r16",
-      "name": "VIP Shoxona Xona #16 (12 kishilik)",
-      "type": "kabinka",
-      "capacity": 12,
-      "priceBooking": 40000,
-      "description": "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
-      "features": [
-        "Kuchli Konditsioner",
-        "Shinam yumshoq divanlar",
-        "Fayzli o'zbekona dizayn",
-        "Keng oilaviy stol",
-        "Shovqin izolatsiyasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "r17",
-      "name": "VIP Shoxona Xona #17 (12 kishilik)",
-      "type": "kabinka",
-      "capacity": 12,
-      "priceBooking": 40000,
-      "description": "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
-      "features": [
-        "Kuchli Konditsioner",
-        "Shinam yumshoq divanlar",
-        "Fayzli o'zbekona dizayn",
-        "Keng oilaviy stol",
-        "Shovqin izolatsiyasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "r18",
-      "name": "VIP Shoxona Xona #18 (12 kishilik)",
-      "type": "kabinka",
-      "capacity": 12,
-      "priceBooking": 40000,
-      "description": "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
-      "features": [
-        "Kuchli Konditsioner",
-        "Shinam yumshoq divanlar",
-        "Fayzli o'zbekona dizayn",
-        "Keng oilaviy stol",
-        "Shovqin izolatsiyasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "r19",
-      "name": "VIP Shoxona Xona #19 (12 kishilik)",
-      "type": "kabinka",
-      "capacity": 12,
-      "priceBooking": 40000,
-      "description": "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
-      "features": [
-        "Kuchli Konditsioner",
-        "Shinam yumshoq divanlar",
-        "Fayzli o'zbekona dizayn",
-        "Keng oilaviy stol",
-        "Shovqin izolatsiyasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "r20",
-      "name": "VIP Shoxona Xona #20 (12 kishilik)",
-      "type": "kabinka",
-      "capacity": 12,
-      "priceBooking": 40000,
-      "description": "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
-      "features": [
-        "Kuchli Konditsioner",
-        "Shinam yumshoq divanlar",
-        "Fayzli o'zbekona dizayn",
-        "Keng oilaviy stol",
-        "Shovqin izolatsiyasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "r21",
-      "name": "VIP Shoxona Xona #21 (12 kishilik)",
-      "type": "kabinka",
-      "capacity": 12,
-      "priceBooking": 40000,
-      "description": "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
-      "features": [
-        "Kuchli Konditsioner",
-        "Shinam yumshoq divanlar",
-        "Fayzli o'zbekona dizayn",
-        "Keng oilaviy stol",
-        "Shovqin izolatsiyasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "r22",
-      "name": "VIP Shoxona Xona #22 (12 kishilik)",
-      "type": "kabinka",
-      "capacity": 12,
-      "priceBooking": 40000,
-      "description": "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
-      "features": [
-        "Kuchli Konditsioner",
-        "Shinam yumshoq divanlar",
-        "Fayzli o'zbekona dizayn",
-        "Keng oilaviy stol",
-        "Shovqin izolatsiyasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "r23",
-      "name": "VIP Shoxona Xona #23 (12 kishilik)",
-      "type": "kabinka",
-      "capacity": 12,
-      "priceBooking": 40000,
-      "description": "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
-      "features": [
-        "Kuchli Konditsioner",
-        "Shinam yumshoq divanlar",
-        "Fayzli o'zbekona dizayn",
-        "Keng oilaviy stol",
-        "Shovqin izolatsiyasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "r24",
-      "name": "VIP Shoxona Xona #24 (12 kishilik)",
-      "type": "kabinka",
-      "capacity": 12,
-      "priceBooking": 40000,
-      "description": "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
-      "features": [
-        "Kuchli Konditsioner",
-        "Shinam yumshoq divanlar",
-        "Fayzli o'zbekona dizayn",
-        "Keng oilaviy stol",
-        "Shovqin izolatsiyasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "r25",
-      "name": "VIP Shoxona Xona #25 (12 kishilik)",
-      "type": "kabinka",
-      "capacity": 12,
-      "priceBooking": 40000,
-      "description": "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
-      "features": [
-        "Kuchli Konditsioner",
-        "Shinam yumshoq divanlar",
-        "Fayzli o'zbekona dizayn",
-        "Keng oilaviy stol",
-        "Shovqin izolatsiyasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "r26",
-      "name": "VIP Shoxona Xona #26 (15-20 kishilik)",
-      "type": "kabinka",
-      "capacity": 20,
-      "priceBooking": 50000,
-      "description": "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
-      "features": [
-        "Kuchli Konditsioner",
-        "Shinam yumshoq divanlar",
-        "Fayzli o'zbekona dizayn",
-        "Keng oilaviy stol",
-        "Shovqin izolatsiyasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "r27",
-      "name": "VIP Shoxona Xona #27 (15-20 kishilik)",
-      "type": "kabinka",
-      "capacity": 20,
-      "priceBooking": 50000,
-      "description": "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
-      "features": [
-        "Kuchli Konditsioner",
-        "Shinam yumshoq divanlar",
-        "Fayzli o'zbekona dizayn",
-        "Keng oilaviy stol",
-        "Shovqin izolatsiyasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "r28",
-      "name": "VIP Shoxona Xona #28 (15-20 kishilik)",
-      "type": "kabinka",
-      "capacity": 20,
-      "priceBooking": 50000,
-      "description": "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
-      "features": [
-        "Kuchli Konditsioner",
-        "Shinam yumshoq divanlar",
-        "Fayzli o'zbekona dizayn",
-        "Keng oilaviy stol",
-        "Shovqin izolatsiyasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "r29",
-      "name": "VIP Shoxona Xona #29 (15-20 kishilik)",
-      "type": "kabinka",
-      "capacity": 20,
-      "priceBooking": 50000,
-      "description": "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
-      "features": [
-        "Kuchli Konditsioner",
-        "Shinam yumshoq divanlar",
-        "Fayzli o'zbekona dizayn",
-        "Keng oilaviy stol",
-        "Shovqin izolatsiyasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "r30",
-      "name": "VIP Shoxona Xona #30 (15-20 kishilik)",
-      "type": "kabinka",
-      "capacity": 20,
-      "priceBooking": 50000,
-      "description": "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
-      "features": [
-        "Kuchli Konditsioner",
-        "Shinam yumshoq divanlar",
-        "Fayzli o'zbekona dizayn",
-        "Keng oilaviy stol",
-        "Shovqin izolatsiyasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    },
-    {
-      "id": "r31",
-      "name": "VIP Shoxona Xona #31 (15-20 kishilik)",
-      "type": "kabinka",
-      "capacity": 20,
-      "priceBooking": 50000,
-      "description": "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
-      "features": [
-        "Kuchli Konditsioner",
-        "Shinam yumshoq divanlar",
-        "Fayzli o'zbekona dizayn",
-        "Keng oilaviy stol",
-        "Shovqin izolatsiyasi"
-      ],
-      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&auto=format&fit=crop&q=80",
-      "available": true
-    }
-  ],
-  "orders": [
-    {
-      "id": "o_5U9YBSCH3",
-      "customerName": "Test Foydalanuvchi",
-      "phone": "+998901234567",
-      "items": [
-        {
-          "menuItemId": "m1-1 kg",
-          "name": "Kamalak Foreli  (1 kg)",
-          "quantity": 1,
-          "price": 155000,
-          "selectedSize": "1 kg"
-        }
-      ],
-      "deliveryType": "delivery",
-      "deliveryAddress": "Farg'ona ko'chasi 1",
-      "deliveryDistanceKm": 5,
-      "deliveryFee": 22500,
-      "totalAmount": 193000,
-      "status": "preparing",
-      "paymentMethod": "click",
-      "notes": "",
-      "createdAt": "2026-06-22T18:36:08.072Z"
-    },
-    {
-      "id": "o_FPLK0UUK2",
-      "customerName": "Test User",
-      "phone": "+998901234567",
-      "items": [
-        {
-          "menuItemId": "m1-1 kg",
-          "name": "Kamalak Foreli  (1 kg)",
-          "quantity": 1,
-          "price": 155000,
-          "selectedSize": "1 kg"
-        }
-      ],
-      "deliveryType": "delivery",
-      "deliveryAddress": "Farg'ona ko'chasi 1",
-      "deliveryDistanceKm": 5,
-      "deliveryFee": 22500,
-      "totalAmount": 193000,
-      "status": "preparing",
-      "paymentMethod": "click",
-      "notes": "",
-      "createdAt": "2026-06-22T18:35:32.575Z"
-    },
-    {
-      "id": "o_JJRPTR91X",
-      "customerName": "Test User",
-      "phone": "+998901234567",
-      "items": [
-        {
-          "menuItemId": "m1-1 kg",
-          "name": "Kamalak Foreli  (1 kg)",
-          "quantity": 1,
-          "price": 155000,
-          "selectedSize": "1 kg"
-        }
-      ],
-      "deliveryType": "delivery",
-      "deliveryAddress": "Farg'ona ko'chasi 1",
-      "deliveryDistanceKm": 5,
-      "deliveryFee": 22500,
-      "totalAmount": 193000,
-      "status": "preparing",
-      "paymentMethod": "click",
-      "notes": "",
-      "createdAt": "2026-06-22T18:31:31.639Z"
-    },
-    {
-      "id": "o_PYFJDC1FW",
-      "customerName": "test",
-      "phone": "+998 908449585",
-      "items": [
-        {
-          "menuItemId": "m2-1 kg",
-          "name": "Sazan Baliq (Qovurilgan Farg'ona uslubi) (1 kg)",
-          "quantity": 1,
-          "price": 119999,
-          "selectedSize": "1 kg"
-        }
-      ],
-      "deliveryType": "delivery",
-      "deliveryAddress": "fargona1",
-      "deliveryDistanceKm": 5,
-      "deliveryFee": 22500,
-      "totalAmount": 154499,
-      "status": "preparing",
-      "paymentMethod": "click",
-      "notes": "",
-      "createdAt": "2026-06-22T18:29:05.186Z"
-    },
-    {
-      "id": "o_PD3HFB3MU",
-      "customerName": "test sinovi",
-      "phone": "+998 908449585",
-      "items": [
-        {
-          "menuItemId": "m2-1 kg",
-          "name": "Sazan Baliq (Qovurilgan Farg'ona uslubi) (1 kg)",
-          "quantity": 1,
-          "price": 119999,
-          "selectedSize": "1 kg"
-        }
-      ],
-      "deliveryType": "delivery",
-      "deliveryAddress": "fargona 1",
-      "deliveryDistanceKm": 5,
-      "deliveryFee": 22500,
-      "totalAmount": 154499,
-      "status": "delivering",
-      "paymentMethod": "click",
-      "notes": "",
-      "createdAt": "2026-06-22T18:28:20.348Z"
-    },
-    {
-      "id": "o_DR5D4PTG7",
-      "customerName": "Test Foydalanuvchi",
-      "phone": "+998901234567",
-      "items": [
-        {
-          "menuItemId": "m2-1 kg",
-          "name": "Sazan Baliq (Qovurilgan Farg'ona uslubi) (1 kg)",
-          "quantity": 1,
-          "price": 119999,
-          "selectedSize": "1 kg"
-        },
-        {
-          "menuItemId": "m1-1 kg",
-          "name": "Kamalak Foreli  (1 kg)",
-          "quantity": 1,
-          "price": 155000,
-          "selectedSize": "1 kg"
-        }
-      ],
-      "deliveryType": "delivery",
-      "deliveryAddress": "Farg'ona ko'chasi 1",
-      "deliveryDistanceKm": 5,
-      "deliveryFee": 22500,
-      "totalAmount": 324999,
-      "status": "delivering",
-      "paymentMethod": "click",
-      "notes": "",
-      "createdAt": "2026-06-22T18:26:12.585Z"
-    },
-    {
-      "id": "o_2WXWTQ3ST",
-      "customerName": "dilshod",
-      "phone": "+998 908449585",
-      "items": [
-        {
-          "menuItemId": "m2-1 kg",
-          "name": "Sazan Baliq (Qovurilgan Farg'ona uslubi) (1 kg)",
-          "quantity": 1,
-          "price": 95000,
-          "selectedSize": "1 kg"
-        },
-        {
-          "menuItemId": "m6-1 portsiya",
-          "name": "Voha Salati (Oasis) (1 portsiya)",
-          "quantity": 1,
-          "price": 22000,
-          "selectedSize": "1 portsiya"
-        },
-        {
-          "menuItemId": "m7-1 portsiya",
-          "name": "Kartoshka Fri (1 portsiya)",
-          "quantity": 1,
-          "price": 18000,
-          "selectedSize": "1 portsiya"
-        },
-        {
-          "menuItemId": "m9-1 dona",
-          "name": "O'choq Issiq Non (1 dona)",
-          "quantity": 1,
-          "price": 6000,
-          "selectedSize": "1 dona"
-        },
-        {
-          "menuItemId": "m10-1 choynak",
-          "name": "Limonli Ko'k Choy (1 choynak)",
-          "quantity": 1,
-          "price": 12000,
-          "selectedSize": "1 choynak"
-        }
-      ],
-      "deliveryType": "delivery",
-      "deliveryAddress": "al-fargoniy",
-      "deliveryDistanceKm": 5,
-      "deliveryFee": 22500,
-      "totalAmount": 190800,
-      "status": "completed",
-      "paymentMethod": "naqd",
-      "notes": "",
-      "createdAt": "2026-06-22T10:18:06.881Z"
-    },
-    {
-      "id": "o_WOGN1XPAX",
-      "customerName": "asadbek",
-      "phone": "+998 908449585",
-      "items": [
-        {
-          "menuItemId": "m2-1 kg",
-          "name": "Sazan Baliq (Qovurilgan Farg'ona uslubi) (1 kg)",
-          "quantity": 1,
-          "price": 95000,
-          "selectedSize": "1 kg"
-        }
-      ],
-      "deliveryType": "delivery",
-      "deliveryAddress": "sabur buloq",
-      "deliveryDistanceKm": 5,
-      "deliveryFee": 22500,
-      "totalAmount": 127000,
-      "status": "completed",
-      "paymentMethod": "naqd",
-      "notes": "",
-      "createdAt": "2026-06-22T10:14:53.002Z"
-    }
-  ],
-  "bookings": [],
-  "adminEmails": [
-    "asadbekmurodilov7@gmail.com",
-    "admin@jasmin.uz",
-    "manager@jasmin.uz"
-  ],
-  "adminPin": "7777",
-  "paymentSettings": {
-    "cardNumber": "8600 1423 5894 7712",
-    "cardName": "JASMIN BALIQ BARAKASI MCHJ",
-    "clickServiceId": "11584",
-    "paymeMerchantId": "64ef81b5ac302",
-    "instructionText": "To'lovni CLICK yoki Payme orqali amalga oshirgach, chek rasmini telegram ma'murimizga (@jasmin_admin) jo'natishingiz yoki xodimimiz qo'ng'irog'ini kutishingizni so'raymiz."
-  },
-  "telegramSettings": {
-    "botToken": "8902223912:AAEnKhFOlmhlEL4zSlC0V_o9Co0gldiysEw",
-    "chatId": "5434658598",
-    "enabled": true,
-    "notifyNewOrder": true,
-    "notifyNewBooking": true,
-    "notifyStatusChange": true
-  }
+﻿{
+    "menu":  [
+                 {
+                     "id":  "m1",
+                     "name":  "Kamalak Foreli ",
+                     "category":  "baliq",
+                     "price":  155000,
+                     "size":  "1 kg",
+                     "description":  "Jasmin baliqxonasining eng mashhur taomlaridan biri. Kamalak foreli o\u0027choq olovida, maxsus zirvorlar va limon marinadi bilan butunligicha grilda pishiriladi.",
+                     "image":  "https://images.unsplash.com/photo-1544025162-d76694265947?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                     "available":  true,
+                     "isMultipleSizes":  false
+                 },
+                 {
+                     "id":  "m2",
+                     "name":  "Sazan Baliq (Qovurilgan Farg\u0027ona uslubi)",
+                     "category":  "baliq",
+                     "price":  119999,
+                     "size":  "1 kg",
+                     "description":  "Daryodan yangi tutilgan Sazan balig\u0027i suyaklaridan ajratilib, maxsus sariyog\u0027 va un kombinatsiyasida o\u0027ta qarsildoq qilib qovuriladi. Sarimsoqli qayla bilan beriladi.",
+                     "image":  "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                     "available":  true,
+                     "isMultipleSizes":  false
+                 },
+                 {
+                     "id":  "m3",
+                     "name":  "Daryo Som (Pechda dumlangan)",
+                     "category":  "baliq",
+                     "price":  115000,
+                     "size":  "1 kg",
+                     "description":  "Yumshoq va yog\u0027li som balig\u0027ining dumi piyoz, pomidor va maxsus ko\u0027katlar hamrohligida pechda dimlanadi. Labingizda eriydi.",
+                     "image":  "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                     "available":  true
+                 },
+                 {
+                     "id":  "m4",
+                     "name":  "Sudak Kabob (Shashlik)",
+                     "category":  "baliq",
+                     "price":  105000,
+                     "size":  "1 kg",
+                     "description":  "Sershira sudak balig\u0027i go\u0027shti kubik qilib kesilib, to\u0027g\u0027ralgan limonga marinadlanadi va cho\u0027g\u0027da ohista pishiriladi. Kam yog\u0027li, parhezbop.",
+                     "image":  "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                     "available":  true
+                 },
+                 {
+                     "id":  "m5",
+                     "name":  "Haqiqiy Achichuk",
+                     "category":  "salatlar",
+                     "price":  16000,
+                     "size":  "1 portsiya",
+                     "description":  "Yangi shirin Farg\u0027ona pomidorlari, yupqa to\u0027g\u0027ralgan piyoz va achchiq qalampir murchi bilan birga tayyorlangan an\u0027anaviy baliqbozlik salati.",
+                     "image":  "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                     "available":  true
+                 },
+                 {
+                     "id":  "m6",
+                     "name":  "Voha Salati (Oasis)",
+                     "category":  "salatlar",
+                     "price":  22000,
+                     "size":  "1 portsiya",
+                     "description":  "Bodring, ko\u0027k no\u0027xat, makkajo\u0027xori, sarxil ko\u0027katlar va maxsus zaytun moyli sous solingan tetiklashtiruvchi salat.",
+                     "image":  "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                     "available":  true,
+                     "isMultipleSizes":  false
+                 },
+                 {
+                     "id":  "m7",
+                     "name":  "Kartoshka Fri",
+                     "category":  "yonlar",
+                     "price":  18000,
+                     "size":  "1 portsiya",
+                     "description":  "Ushbu oltin qarsildoq kartoshkalar baliq go\u0027shtiga eng ajoyib garnir hisoblanadi. Tomat-chesnok sousi tekin qo\u0027shib beriladi.",
+                     "image":  "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                     "available":  true
+                 },
+                 {
+                     "id":  "m8",
+                     "name":  "Sarimsoqli Baliq Sousi",
+                     "category":  "yonlar",
+                     "price":  8000,
+                     "size":  "1 idish",
+                     "description":  "Jasmin uy sharoitida tayyorlangan maxsus sarimsoq, yashil kashnich, kislotali limon va sariyog\u0027li sous.",
+                     "image":  "https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                     "available":  true
+                 },
+                 {
+                     "id":  "m9",
+                     "name":  "O\u0027choq Issiq Non",
+                     "category":  "non",
+                     "price":  6000,
+                     "size":  "1 dona",
+                     "description":  "Baliqxonamiz tandirida tayyorlangan qarsildoq, kunjut sepilgan issiq Uzbek noni.",
+                     "image":  "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                     "available":  true
+                 },
+                 {
+                     "id":  "m10",
+                     "name":  "Limonli Ko\u0027k Choy",
+                     "category":  "ichimliklar",
+                     "price":  12000,
+                     "size":  "1 choynak",
+                     "description":  "Chinni choynakda damlangan yangi limon tilimlari va asal bilan boyitilgan, baliqdan keyin hazm qilishga eng yaxshi ko\u0027k choy.",
+                     "image":  "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                     "available":  true
+                 },
+                 {
+                     "id":  "m11",
+                     "name":  "Jasmin Maxsus Lemonadi",
+                     "category":  "ichimliklar",
+                     "price":  25000,
+                     "size":  "1 litr",
+                     "description":  "Yalpiz barglari, yangi siqilgan limon va apelsin sharbatidan tayyorlanadigan tetiklashtiruvchi sovuq ichimlik.",
+                     "image":  "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                     "available":  true
+                 },
+                 {
+                     "id":  "m_1782282733398",
+                     "name":  "test",
+                     "category":  "baliq",
+                     "price":  10000,
+                     "description":  "",
+                     "image":  "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                     "available":  true,
+                     "size":  "1 portsiya"
+                 }
+             ],
+    "rooms":  [
+                  {
+                      "id":  "t1",
+                      "name":  "Tapchan #1",
+                      "type":  "tapchan",
+                      "capacity":  10,
+                      "priceBooking":  25000,
+                      "description":  "Shinam va go\u0027zal an\u0027anaviy o\u0027zbekona tapchan. Atrof yashillik bilan o\u0027ralgan va shinam ko\u0027rpachalar bor. Maks. 10 kishi uchun.",
+                      "features":  [
+                                       "Shinam muhit",
+                                       "Yumshoq yostiqlar",
+                                       "Telefon zaryadlash moslamasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "t2",
+                      "name":  "Tapchan #2",
+                      "type":  "tapchan",
+                      "capacity":  10,
+                      "priceBooking":  25000,
+                      "description":  "Shinam va go\u0027zal an\u0027anaviy o\u0027zbekona tapchan. Atrof yashillik bilan o\u0027ralgan va shinam ko\u0027rpachalar bor. Maks. 10 kishi uchun.",
+                      "features":  [
+                                       "Shinam muhit",
+                                       "Yumshoq yostiqlar",
+                                       "Telefon zaryadlash moslamasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "t3",
+                      "name":  "Tapchan #3",
+                      "type":  "tapchan",
+                      "capacity":  10,
+                      "priceBooking":  25000,
+                      "description":  "Shinam va go\u0027zal an\u0027anaviy o\u0027zbekona tapchan. Atrof yashillik bilan o\u0027ralgan va shinam ko\u0027rpachalar bor. Maks. 10 kishi uchun.",
+                      "features":  [
+                                       "Shinam muhit",
+                                       "Yumshoq yostiqlar",
+                                       "Telefon zaryadlash moslamasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "t4",
+                      "name":  "Tapchan #4",
+                      "type":  "tapchan",
+                      "capacity":  10,
+                      "priceBooking":  25000,
+                      "description":  "Shinam va go\u0027zal an\u0027anaviy o\u0027zbekona tapchan. Atrof yashillik bilan o\u0027ralgan va shinam ko\u0027rpachalar bor. Maks. 10 kishi uchun.",
+                      "features":  [
+                                       "Shinam muhit",
+                                       "Yumshoq yostiqlar",
+                                       "Telefon zaryadlash moslamasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "t5",
+                      "name":  "Tapchan #5",
+                      "type":  "tapchan",
+                      "capacity":  10,
+                      "priceBooking":  25000,
+                      "description":  "Shinam va go\u0027zal an\u0027anaviy o\u0027zbekona tapchan. Atrof yashillik bilan o\u0027ralgan va shinam ko\u0027rpachalar bor. Maks. 10 kishi uchun.",
+                      "features":  [
+                                       "Shinam muhit",
+                                       "Yumshoq yostiqlar",
+                                       "Telefon zaryadlash moslamasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "t6",
+                      "name":  "Tapchan #6",
+                      "type":  "tapchan",
+                      "capacity":  10,
+                      "priceBooking":  25000,
+                      "description":  "Shinam va go\u0027zal an\u0027anaviy o\u0027zbekona tapchan. Atrof yashillik bilan o\u0027ralgan va shinam ko\u0027rpachalar bor. Maks. 10 kishi uchun.",
+                      "features":  [
+                                       "Shinam muhit",
+                                       "Yumshoq yostiqlar",
+                                       "Telefon zaryadlash moslamasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "t7",
+                      "name":  "Tapchan #7",
+                      "type":  "tapchan",
+                      "capacity":  10,
+                      "priceBooking":  25000,
+                      "description":  "Shinam va go\u0027zal an\u0027anaviy o\u0027zbekona tapchan. Atrof yashillik bilan o\u0027ralgan va shinam ko\u0027rpachalar bor. Maks. 10 kishi uchun.",
+                      "features":  [
+                                       "Shinam muhit",
+                                       "Yumshoq yostiqlar",
+                                       "Telefon zaryadlash moslamasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "t8",
+                      "name":  "Tapchan #8",
+                      "type":  "tapchan",
+                      "capacity":  10,
+                      "priceBooking":  25000,
+                      "description":  "Shinam va go\u0027zal an\u0027anaviy o\u0027zbekona tapchan. Atrof yashillik bilan o\u0027ralgan va shinam ko\u0027rpachalar bor. Maks. 10 kishi uchun.",
+                      "features":  [
+                                       "Shinam muhit",
+                                       "Yumshoq yostiqlar",
+                                       "Telefon zaryadlash moslamasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "t9",
+                      "name":  "Tapchan #9",
+                      "type":  "tapchan",
+                      "capacity":  10,
+                      "priceBooking":  25000,
+                      "description":  "Shinam va go\u0027zal an\u0027anaviy o\u0027zbekona tapchan. Atrof yashillik bilan o\u0027ralgan va shinam ko\u0027rpachalar bor. Maks. 10 kishi uchun.",
+                      "features":  [
+                                       "Shinam muhit",
+                                       "Yumshoq yostiqlar",
+                                       "Telefon zaryadlash moslamasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "t10",
+                      "name":  "Tapchan #10",
+                      "type":  "tapchan",
+                      "capacity":  10,
+                      "priceBooking":  25000,
+                      "description":  "Shinam va go\u0027zal an\u0027anaviy o\u0027zbekona tapchan. Atrof yashillik bilan o\u0027ralgan va shinam ko\u0027rpachalar bor. Maks. 10 kishi uchun.",
+                      "features":  [
+                                       "Shinam muhit",
+                                       "Yumshoq yostiqlar",
+                                       "Telefon zaryadlash moslamasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "r1",
+                      "name":  "VIP Shoxona Xona #1 (8 kishilik)",
+                      "type":  "kabinka",
+                      "capacity":  8,
+                      "priceBooking":  30000,
+                      "description":  "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
+                      "features":  [
+                                       "Kuchli Konditsioner",
+                                       "Shinam yumshoq divanlar",
+                                       "Fayzli o\u0027zbekona dizayn",
+                                       "Keng oilaviy stol",
+                                       "Shovqin izolatsiyasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "r2",
+                      "name":  "VIP Shoxona Xona #2 (8 kishilik)",
+                      "type":  "kabinka",
+                      "capacity":  8,
+                      "priceBooking":  30000,
+                      "description":  "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
+                      "features":  [
+                                       "Kuchli Konditsioner",
+                                       "Shinam yumshoq divanlar",
+                                       "Fayzli o\u0027zbekona dizayn",
+                                       "Keng oilaviy stol",
+                                       "Shovqin izolatsiyasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "r3",
+                      "name":  "VIP Shoxona Xona #3 (8 kishilik)",
+                      "type":  "kabinka",
+                      "capacity":  8,
+                      "priceBooking":  30000,
+                      "description":  "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
+                      "features":  [
+                                       "Kuchli Konditsioner",
+                                       "Shinam yumshoq divanlar",
+                                       "Fayzli o\u0027zbekona dizayn",
+                                       "Keng oilaviy stol",
+                                       "Shovqin izolatsiyasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "r4",
+                      "name":  "VIP Shoxona Xona #4 (8 kishilik)",
+                      "type":  "kabinka",
+                      "capacity":  8,
+                      "priceBooking":  30000,
+                      "description":  "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
+                      "features":  [
+                                       "Kuchli Konditsioner",
+                                       "Shinam yumshoq divanlar",
+                                       "Fayzli o\u0027zbekona dizayn",
+                                       "Keng oilaviy stol",
+                                       "Shovqin izolatsiyasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "r5",
+                      "name":  "VIP Shoxona Xona #5 (8 kishilik)",
+                      "type":  "kabinka",
+                      "capacity":  8,
+                      "priceBooking":  30000,
+                      "description":  "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
+                      "features":  [
+                                       "Kuchli Konditsioner",
+                                       "Shinam yumshoq divanlar",
+                                       "Fayzli o\u0027zbekona dizayn",
+                                       "Keng oilaviy stol",
+                                       "Shovqin izolatsiyasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "r6",
+                      "name":  "VIP Shoxona Xona #6 (8 kishilik)",
+                      "type":  "kabinka",
+                      "capacity":  8,
+                      "priceBooking":  30000,
+                      "description":  "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
+                      "features":  [
+                                       "Kuchli Konditsioner",
+                                       "Shinam yumshoq divanlar",
+                                       "Fayzli o\u0027zbekona dizayn",
+                                       "Keng oilaviy stol",
+                                       "Shovqin izolatsiyasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "r7",
+                      "name":  "VIP Shoxona Xona #7 (8 kishilik)",
+                      "type":  "kabinka",
+                      "capacity":  8,
+                      "priceBooking":  30000,
+                      "description":  "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
+                      "features":  [
+                                       "Kuchli Konditsioner",
+                                       "Shinam yumshoq divanlar",
+                                       "Fayzli o\u0027zbekona dizayn",
+                                       "Keng oilaviy stol",
+                                       "Shovqin izolatsiyasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "r8",
+                      "name":  "VIP Shoxona Xona #8 (8 kishilik)",
+                      "type":  "kabinka",
+                      "capacity":  8,
+                      "priceBooking":  30000,
+                      "description":  "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
+                      "features":  [
+                                       "Kuchli Konditsioner",
+                                       "Shinam yumshoq divanlar",
+                                       "Fayzli o\u0027zbekona dizayn",
+                                       "Keng oilaviy stol",
+                                       "Shovqin izolatsiyasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "r9",
+                      "name":  "VIP Shoxona Xona #9 (8 kishilik)",
+                      "type":  "kabinka",
+                      "capacity":  8,
+                      "priceBooking":  30000,
+                      "description":  "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
+                      "features":  [
+                                       "Kuchli Konditsioner",
+                                       "Shinam yumshoq divanlar",
+                                       "Fayzli o\u0027zbekona dizayn",
+                                       "Keng oilaviy stol",
+                                       "Shovqin izolatsiyasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "r10",
+                      "name":  "VIP Shoxona Xona #10 (8 kishilik)",
+                      "type":  "kabinka",
+                      "capacity":  8,
+                      "priceBooking":  30000,
+                      "description":  "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
+                      "features":  [
+                                       "Kuchli Konditsioner",
+                                       "Shinam yumshoq divanlar",
+                                       "Fayzli o\u0027zbekona dizayn",
+                                       "Keng oilaviy stol",
+                                       "Shovqin izolatsiyasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "r11",
+                      "name":  "VIP Shoxona Xona #11 (8 kishilik)",
+                      "type":  "kabinka",
+                      "capacity":  8,
+                      "priceBooking":  30000,
+                      "description":  "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
+                      "features":  [
+                                       "Kuchli Konditsioner",
+                                       "Shinam yumshoq divanlar",
+                                       "Fayzli o\u0027zbekona dizayn",
+                                       "Keng oilaviy stol",
+                                       "Shovqin izolatsiyasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "r12",
+                      "name":  "VIP Shoxona Xona #12 (8 kishilik)",
+                      "type":  "kabinka",
+                      "capacity":  8,
+                      "priceBooking":  30000,
+                      "description":  "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
+                      "features":  [
+                                       "Kuchli Konditsioner",
+                                       "Shinam yumshoq divanlar",
+                                       "Fayzli o\u0027zbekona dizayn",
+                                       "Keng oilaviy stol",
+                                       "Shovqin izolatsiyasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "r13",
+                      "name":  "VIP Shoxona Xona #13 (8 kishilik)",
+                      "type":  "kabinka",
+                      "capacity":  8,
+                      "priceBooking":  30000,
+                      "description":  "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
+                      "features":  [
+                                       "Kuchli Konditsioner",
+                                       "Shinam yumshoq divanlar",
+                                       "Fayzli o\u0027zbekona dizayn",
+                                       "Keng oilaviy stol",
+                                       "Shovqin izolatsiyasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "r14",
+                      "name":  "VIP Shoxona Xona #14 (8 kishilik)",
+                      "type":  "kabinka",
+                      "capacity":  8,
+                      "priceBooking":  30000,
+                      "description":  "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
+                      "features":  [
+                                       "Kuchli Konditsioner",
+                                       "Shinam yumshoq divanlar",
+                                       "Fayzli o\u0027zbekona dizayn",
+                                       "Keng oilaviy stol",
+                                       "Shovqin izolatsiyasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "r15",
+                      "name":  "VIP Shoxona Xona #15 (8 kishilik)",
+                      "type":  "kabinka",
+                      "capacity":  8,
+                      "priceBooking":  30000,
+                      "description":  "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
+                      "features":  [
+                                       "Kuchli Konditsioner",
+                                       "Shinam yumshoq divanlar",
+                                       "Fayzli o\u0027zbekona dizayn",
+                                       "Keng oilaviy stol",
+                                       "Shovqin izolatsiyasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "r16",
+                      "name":  "VIP Shoxona Xona #16 (12 kishilik)",
+                      "type":  "kabinka",
+                      "capacity":  12,
+                      "priceBooking":  40000,
+                      "description":  "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
+                      "features":  [
+                                       "Kuchli Konditsioner",
+                                       "Shinam yumshoq divanlar",
+                                       "Fayzli o\u0027zbekona dizayn",
+                                       "Keng oilaviy stol",
+                                       "Shovqin izolatsiyasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "r17",
+                      "name":  "VIP Shoxona Xona #17 (12 kishilik)",
+                      "type":  "kabinka",
+                      "capacity":  12,
+                      "priceBooking":  40000,
+                      "description":  "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
+                      "features":  [
+                                       "Kuchli Konditsioner",
+                                       "Shinam yumshoq divanlar",
+                                       "Fayzli o\u0027zbekona dizayn",
+                                       "Keng oilaviy stol",
+                                       "Shovqin izolatsiyasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "r18",
+                      "name":  "VIP Shoxona Xona #18 (12 kishilik)",
+                      "type":  "kabinka",
+                      "capacity":  12,
+                      "priceBooking":  40000,
+                      "description":  "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
+                      "features":  [
+                                       "Kuchli Konditsioner",
+                                       "Shinam yumshoq divanlar",
+                                       "Fayzli o\u0027zbekona dizayn",
+                                       "Keng oilaviy stol",
+                                       "Shovqin izolatsiyasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "r19",
+                      "name":  "VIP Shoxona Xona #19 (12 kishilik)",
+                      "type":  "kabinka",
+                      "capacity":  12,
+                      "priceBooking":  40000,
+                      "description":  "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
+                      "features":  [
+                                       "Kuchli Konditsioner",
+                                       "Shinam yumshoq divanlar",
+                                       "Fayzli o\u0027zbekona dizayn",
+                                       "Keng oilaviy stol",
+                                       "Shovqin izolatsiyasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "r20",
+                      "name":  "VIP Shoxona Xona #20 (12 kishilik)",
+                      "type":  "kabinka",
+                      "capacity":  12,
+                      "priceBooking":  40000,
+                      "description":  "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
+                      "features":  [
+                                       "Kuchli Konditsioner",
+                                       "Shinam yumshoq divanlar",
+                                       "Fayzli o\u0027zbekona dizayn",
+                                       "Keng oilaviy stol",
+                                       "Shovqin izolatsiyasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "r21",
+                      "name":  "VIP Shoxona Xona #21 (12 kishilik)",
+                      "type":  "kabinka",
+                      "capacity":  12,
+                      "priceBooking":  40000,
+                      "description":  "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
+                      "features":  [
+                                       "Kuchli Konditsioner",
+                                       "Shinam yumshoq divanlar",
+                                       "Fayzli o\u0027zbekona dizayn",
+                                       "Keng oilaviy stol",
+                                       "Shovqin izolatsiyasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "r22",
+                      "name":  "VIP Shoxona Xona #22 (12 kishilik)",
+                      "type":  "kabinka",
+                      "capacity":  12,
+                      "priceBooking":  40000,
+                      "description":  "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
+                      "features":  [
+                                       "Kuchli Konditsioner",
+                                       "Shinam yumshoq divanlar",
+                                       "Fayzli o\u0027zbekona dizayn",
+                                       "Keng oilaviy stol",
+                                       "Shovqin izolatsiyasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "r23",
+                      "name":  "VIP Shoxona Xona #23 (12 kishilik)",
+                      "type":  "kabinka",
+                      "capacity":  12,
+                      "priceBooking":  40000,
+                      "description":  "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
+                      "features":  [
+                                       "Kuchli Konditsioner",
+                                       "Shinam yumshoq divanlar",
+                                       "Fayzli o\u0027zbekona dizayn",
+                                       "Keng oilaviy stol",
+                                       "Shovqin izolatsiyasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "r24",
+                      "name":  "VIP Shoxona Xona #24 (12 kishilik)",
+                      "type":  "kabinka",
+                      "capacity":  12,
+                      "priceBooking":  40000,
+                      "description":  "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
+                      "features":  [
+                                       "Kuchli Konditsioner",
+                                       "Shinam yumshoq divanlar",
+                                       "Fayzli o\u0027zbekona dizayn",
+                                       "Keng oilaviy stol",
+                                       "Shovqin izolatsiyasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "r25",
+                      "name":  "VIP Shoxona Xona #25 (12 kishilik)",
+                      "type":  "kabinka",
+                      "capacity":  12,
+                      "priceBooking":  40000,
+                      "description":  "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
+                      "features":  [
+                                       "Kuchli Konditsioner",
+                                       "Shinam yumshoq divanlar",
+                                       "Fayzli o\u0027zbekona dizayn",
+                                       "Keng oilaviy stol",
+                                       "Shovqin izolatsiyasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "r26",
+                      "name":  "VIP Shoxona Xona #26 (15-20 kishilik)",
+                      "type":  "kabinka",
+                      "capacity":  20,
+                      "priceBooking":  50000,
+                      "description":  "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
+                      "features":  [
+                                       "Kuchli Konditsioner",
+                                       "Shinam yumshoq divanlar",
+                                       "Fayzli o\u0027zbekona dizayn",
+                                       "Keng oilaviy stol",
+                                       "Shovqin izolatsiyasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "r27",
+                      "name":  "VIP Shoxona Xona #27 (15-20 kishilik)",
+                      "type":  "kabinka",
+                      "capacity":  20,
+                      "priceBooking":  50000,
+                      "description":  "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
+                      "features":  [
+                                       "Kuchli Konditsioner",
+                                       "Shinam yumshoq divanlar",
+                                       "Fayzli o\u0027zbekona dizayn",
+                                       "Keng oilaviy stol",
+                                       "Shovqin izolatsiyasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "r28",
+                      "name":  "VIP Shoxona Xona #28 (15-20 kishilik)",
+                      "type":  "kabinka",
+                      "capacity":  20,
+                      "priceBooking":  50000,
+                      "description":  "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
+                      "features":  [
+                                       "Kuchli Konditsioner",
+                                       "Shinam yumshoq divanlar",
+                                       "Fayzli o\u0027zbekona dizayn",
+                                       "Keng oilaviy stol",
+                                       "Shovqin izolatsiyasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "r29",
+                      "name":  "VIP Shoxona Xona #29 (15-20 kishilik)",
+                      "type":  "kabinka",
+                      "capacity":  20,
+                      "priceBooking":  50000,
+                      "description":  "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
+                      "features":  [
+                                       "Kuchli Konditsioner",
+                                       "Shinam yumshoq divanlar",
+                                       "Fayzli o\u0027zbekona dizayn",
+                                       "Keng oilaviy stol",
+                                       "Shovqin izolatsiyasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "r30",
+                      "name":  "VIP Shoxona Xona #30 (15-20 kishilik)",
+                      "type":  "kabinka",
+                      "capacity":  20,
+                      "priceBooking":  50000,
+                      "description":  "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
+                      "features":  [
+                                       "Kuchli Konditsioner",
+                                       "Shinam yumshoq divanlar",
+                                       "Fayzli o\u0027zbekona dizayn",
+                                       "Keng oilaviy stol",
+                                       "Shovqin izolatsiyasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  },
+                  {
+                      "id":  "r31",
+                      "name":  "VIP Shoxona Xona #31 (15-20 kishilik)",
+                      "type":  "kabinka",
+                      "capacity":  20,
+                      "priceBooking":  50000,
+                      "description":  "Hammasi uchun alohida konditsioner bilan jihozlangan tinch va shinam oilaviy xona. Televizor mavjud emas, oilaviy suhbat va osoyishtalik uchun ajoyib maskan.",
+                      "features":  [
+                                       "Kuchli Konditsioner",
+                                       "Shinam yumshoq divanlar",
+                                       "Fayzli o\u0027zbekona dizayn",
+                                       "Keng oilaviy stol",
+                                       "Shovqin izolatsiyasi"
+                                   ],
+                      "image":  "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600\u0026auto=format\u0026fit=crop\u0026q=80",
+                      "available":  true
+                  }
+              ],
+    "orders":  [
+
+               ],
+    "bookings":  [
+
+                 ],
+    "adminEmails":  [
+                        "asadbekmurodilov7@gmail.com",
+                        "admin@jasmin.uz",
+                        "manager@jasmin.uz"
+                    ],
+    "adminPin":  "7777",
+    "paymentSettings":  {
+                            "cardNumber":  "8600 1423 5894 7712",
+                            "cardName":  "JASMIN BALIQ BARAKASI MCHJ",
+                            "clickServiceId":  "11584",
+                            "paymeMerchantId":  "64ef81b5ac302",
+                            "instructionText":  "To\u0027lovni CLICK yoki Payme orqali amalga oshirgach, chek rasmini telegram ma\u0027murimizga (@jasmin_admin) jo\u0027natishingiz yoki xodimimiz qo\u0027ng\u0027irog\u0027ini kutishingizni so\u0027raymiz."
+                        },
+    "telegramSettings":  {
+                             "botToken":  "8902223912:AAEnKhFOlmhlEL4zSlC0V_o9Co0gldiysEw",
+                             "chatId":  "5434658598",
+                             "enabled":  true,
+                             "notifyNewOrder":  true,
+                             "notifyNewBooking":  true,
+                             "notifyStatusChange":  true
+                         }
 }
