@@ -872,6 +872,26 @@ async function startServer() {
     res.json({ success: true, token, message: "Kirish muvaffaqiyatli yakunlandi!" });
   });
 
+  // PIN-only login
+  app.post('/api/pin-login', (req: Request, res: Response) => {
+    const ip = req.ip || '';
+    if (!checkRateLimit(ip)) {
+      res.status(429).json({ error: "Juda ko'p urinish. 15 daqiqadan so'ng qayta urinib ko'ring." });
+      return;
+    }
+    const { pin } = req.body;
+    if (!pin) { res.status(400).json({ error: "PIN kiritilmadi!" }); return; }
+    if (pin.trim() !== (dbState.adminPin || '7777')) {
+      recordFailedAttempt(ip);
+      res.status(401).json({ error: "PIN noto'g'ri!" });
+      return;
+    }
+    clearAttempts(ip);
+    const adminEmail = (dbState.adminEmails || [])[0] || 'admin@jasmin.uz';
+    const token = signToken(adminEmail);
+    res.json({ success: true, token });
+  });
+
   // 5b. Phone-based order/booking lookup (public)
   app.get('/api/orders/by-phone/:phone', (req: Request, res: Response) => {
     const phone = req.params.phone.replace(/\D/g, '');
