@@ -334,11 +334,6 @@ export default function App() {
   return (
     <div className="min-h-screen bg-stone-100 text-zinc-900 dark:bg-zinc-950 dark:text-stone-100 flex flex-col justify-between transition-colors">
 
-      {/* Top Banner indicating Protected Admin Access */}
-      <div className="bg-zinc-100 border-b border-zinc-200 text-zinc-600 dark:bg-zinc-900 dark:border-zinc-850 dark:text-zinc-300 py-2 px-4 text-center text-[11px] font-semibold tracking-wide flex items-center justify-center space-x-2 shadow-sm transition-colors">
-        <div className="h-2 w-2 rounded-full bg-emerald-500 animate-pulse shrink-0"></div>
-        <span>{t('banner.protected')}</span>
-      </div>
 
       {/* Main Responsive Header */}
       <Navbar
