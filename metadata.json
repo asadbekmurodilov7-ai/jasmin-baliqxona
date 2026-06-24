@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Jasmin Baliq Online",
+  "description": "Menu browsing, online ordering, delivery, and room booking platform with inventory management for Fergana\u0027s Jasmin Fish Restaurant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Jasmin Baliqxona",
+      "runtimeExecutable": "cmd.exe",
+      "runtimeArgs": ["/c", "C:\\Users\\user\\Downloads\\remix_-jasmin-baliq-online\\start-dev.cmd"],
+      "port": 3000
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc *)",
+      "Bash(cp src/components/MenuSection.tsx src/components/MenuSection.tsx.bak)",
+      "Bash(python theme_convert.py src/components/MenuSection.tsx)"
+    ]
+  }
+}

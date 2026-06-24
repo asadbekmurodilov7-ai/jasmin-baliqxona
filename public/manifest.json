@@ -1,0 +1,38 @@
+{
+  "name": "Jasmin Baliqxona",
+  "short_name": "Jasmin",
+  "description": "Jasmin baliqxonasi — onlayn buyurtma va bron qilish",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#09090b",
+  "theme_color": "#dc2626",
+  "lang": "uz",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["food", "restaurants"],
+  "shortcuts": [
+    {
+      "name": "Menyu",
+      "url": "/?tab=menu",
+      "description": "Taomlar menyusini ko'rish"
+    },
+    {
+      "name": "Bron qilish",
+      "url": "/?tab=booking",
+      "description": "Xona bron qilish"
+    }
+  ]
+}
