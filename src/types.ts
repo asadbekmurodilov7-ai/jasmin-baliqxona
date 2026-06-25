@@ -5,6 +5,7 @@ export interface MenuItem {
   price: number; // in UZS (sum)
   description: string;
   image: string;
+  images?: string[];
   available: boolean;
   size: string; // e.g. "1 kg", "1 dona", "1 portsiya"
   isMultipleSizes?: boolean;
@@ -20,6 +21,7 @@ export interface Room {
   description: string;
   features: string[]; // e.g. ["Televizor", "Konditsiyoner", "Daryo bo'yi", "Yumshoq yostiqlar"]
   image: string;
+  images?: string[];
   available: boolean;
 }
 

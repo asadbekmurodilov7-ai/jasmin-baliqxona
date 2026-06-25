@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Room, RoomBooking } from '../types';
 import { Users, Info, Tv, Snowflake, Wind, Coffee, Calendar, Clock, Check, AlertCircle, Sparkles } from 'lucide-react';
+import ImageSlider from './ImageSlider';
 import { useT } from '../i18n';
 import { useTd } from '../dataI18n';
 
@@ -175,13 +176,12 @@ export default function BookingSection({
                   }`}
                   id={`room-card-${room.id}`}
                 >
-                  <div className="relative h-44 w-full bg-zinc-100 dark:bg-zinc-900">
-                    <img
-                      src={room.image}
+                  <div className="relative h-44 w-full bg-zinc-100 dark:bg-zinc-900 overflow-hidden">
+                    <ImageSlider
+                      images={(room.images && room.images.length > 0) ? room.images : [room.image]}
                       alt={room.name}
-                      referrerPolicy="no-referrer"
-                      onError={(e) => { (e.currentTarget as HTMLImageElement).src = 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=600&auto=format&fit=crop&q=80'; }}
-                      className="w-full h-full object-cover font-sans"
+                      className="w-full h-full object-cover"
+                      fallback="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=600&auto=format&fit=crop&q=80"
                     />
                     
                     {/* Tags */}

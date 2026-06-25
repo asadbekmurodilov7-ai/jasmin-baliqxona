@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { MenuItem, OrderItem, PaymentSettings } from '../types';
 import { Search, ShoppingCart, Plus, Minus, Info, AlertTriangle, Check, MapPin, Sparkles, Send, X, Copy, ExternalLink, CreditCard } from 'lucide-react';
+import ImageSlider from './ImageSlider';
 import { useT } from '../i18n';
 import { useSettings } from '../context/Settings';
 import { useTd } from '../dataI18n';
@@ -269,22 +270,20 @@ export default function MenuSection({
                     }`}
                     id={`menu-item-card-${item.id}`}
                   >
-                    {/* Food Image */}
+                    {/* Food Image Slider */}
                     <div className="relative h-44 w-full bg-zinc-50 dark:bg-zinc-950 overflow-hidden">
-                      <img
-                        src={item.image}
+                      <ImageSlider
+                        images={(item.images && item.images.length > 0) ? item.images : [item.image]}
                         alt={item.name}
-                        referrerPolicy="no-referrer"
-                        onError={(e) => { (e.currentTarget as HTMLImageElement).src = 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=600&auto=format&fit=crop&q=80'; }}
-                        className="w-full h-full object-cover font-sans hover:scale-105 transition-transform duration-500"
+                        className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                        fallback="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=600&auto=format&fit=crop&q=80"
                       />
-                      <div className="absolute top-2.5 right-2.5 bg-black/70 backdrop-blur-md text-white text-[11px] font-bold px-2.5 py-1 rounded-full border border-zinc-200/50 dark:border-zinc-850/50">
+                      <div className="absolute top-2.5 right-2.5 bg-black/70 backdrop-blur-md text-white text-[11px] font-bold px-2.5 py-1 rounded-full border border-zinc-200/50 dark:border-zinc-850/50 pointer-events-none">
                         {td(sizeChosen)}
                       </div>
-                      
                       {!item.available && (
-                        <div className="absolute inset-0 bg-black/75 backdrop-blur-xs flex items-center justify-center">
-                          <span className="bg-red-650 bg-red-600 text-white text-xs font-bold uppercase tracking-wider px-3.5 py-1.5 rounded-lg border border-red-400">
+                        <div className="absolute inset-0 bg-black/75 backdrop-blur-xs flex items-center justify-center pointer-events-none">
+                          <span className="bg-red-600 text-white text-xs font-bold uppercase tracking-wider px-3.5 py-1.5 rounded-lg border border-red-400">
                             {t('menu.soldOut')}
                           </span>
                         </div>
