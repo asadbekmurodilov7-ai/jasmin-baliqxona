@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { MenuItem, Room, Order, RoomBooking, PaymentSettings } from '../types';
 import { adminFetch } from '../lib/adminFetch';
+import MultiImageInput from './MultiImageInput';
 import {
   Plus, Trash2, CheckCircle2, XCircle, RotateCcw, ToggleLeft, ToggleRight,
   DollarSign, ShoppingBag, Calendar, ListFilter, Image, Layers, FileText, Check, Award,
@@ -927,77 +928,12 @@ export default function AdminPanel({
               </div>
 
               <div>
-                <label className="block font-bold text-zinc-700 dark:text-zinc-300 uppercase mb-1">
-                  Rasmlar ({itemImages.filter(u=>u.trim()).length} ta) — birinchisi asosiy:
-                </label>
-                <div className="space-y-2">
-                  {itemImages.map((url, idx) => (
-                    <div key={idx} className="flex gap-2 items-center">
-                      <div className="relative flex-1">
-                        <span className="absolute inset-y-0 left-0 pl-3 flex items-center text-zinc-400">
-                          <Image className="h-4 w-4" />
-                        </span>
-                        <input
-                          type="text"
-                          placeholder={idx === 0 ? "Asosiy rasm URL" : `Qo'shimcha rasm ${idx + 1} URL`}
-                          value={url}
-                          onChange={(e) => {
-                            const val = e.target.value;
-                            setItemImages(prev => prev.map((u, i) => i === idx ? val : u));
-                          }}
-                          className="w-full pl-9 pr-3 py-2 bg-zinc-50 dark:bg-zinc-950 border border-zinc-350 rounded-lg text-xs text-zinc-900 dark:text-white font-medium placeholder-zinc-400"
-                        />
-                      </div>
-                      {url.trim() && (
-                        <img src={url} referrerPolicy="no-referrer" alt="" className="h-8 w-10 object-cover rounded border border-zinc-200 dark:border-zinc-800 shrink-0" onError={(e)=>{(e.currentTarget as HTMLImageElement).style.display='none'}} />
-                      )}
-                      {itemImages.length > 1 && (
-                        <button type="button" onClick={() => setItemImages(prev => prev.filter((_,i) => i !== idx))}
-                          className="p-1 text-zinc-400 hover:text-red-500 shrink-0">
-                          <X className="h-3.5 w-3.5" />
-                        </button>
-                      )}
-                    </div>
-                  ))}
-
-                  <div className="flex gap-2">
-                    <button type="button" onClick={() => setItemImages(prev => [...prev, ''])}
-                      className="flex-1 text-[10px] font-bold text-amber-600 hover:text-amber-700 flex items-center justify-center gap-1 bg-amber-50 dark:bg-zinc-900 px-2 py-1.5 rounded border border-amber-200/50 cursor-pointer">
-                      <Plus className="h-3 w-3" /> Rasm URL qo'shish
-                    </button>
-
-                    <label className="flex-1 relative flex items-center justify-center border-2 border-dashed border-zinc-200 dark:border-zinc-800 rounded-lg px-2 py-1.5 hover:bg-zinc-100 dark:hover:bg-zinc-900 transition-colors cursor-pointer bg-zinc-50 dark:bg-zinc-950">
-                    <input
-                      type="file"
-                      accept="image/*"
-                      onChange={(e) => {
-                        const file = e.target.files?.[0];
-                        if (file) {
-                          if (file.size > 3 * 1024 * 1024) {
-                            showNotification("Iltimos, rasm hajmi 3MB dan oshmasin!", "error");
-                            return;
-                          }
-                          const reader = new FileReader();
-                          reader.onloadend = () => {
-                            const result = reader.result as string;
-                            setItemImages(prev => {
-                              const last = prev[prev.length - 1];
-                              if (!last.trim()) return prev.map((u, i) => i === prev.length - 1 ? result : u);
-                              return [...prev, result];
-                            });
-                          };
-                          reader.readAsDataURL(file);
-                        }
-                      }}
-                      className="absolute inset-0 opacity-0 cursor-pointer w-full h-full"
-                    />
-                    <div className="text-[10px] text-zinc-500 font-medium flex items-center gap-1 justify-center">
-                      <Upload className="h-3 w-3 text-zinc-400" />
-                      <span>Fayl yuklash</span>
-                    </div>
-                    </label>
-                  </div>
-                </div>
+                <label className="block font-bold text-zinc-700 dark:text-zinc-300 uppercase mb-1.5">Rasmlar (birinchisi asosiy):</label>
+                <MultiImageInput
+                  images={itemImages.filter(u => u.trim())}
+                  onChange={setItemImages}
+                  onError={(msg) => showNotification(msg, 'error')}
+                />
               </div>
 
               <button
@@ -1416,76 +1352,12 @@ export default function AdminPanel({
               </div>
 
               <div>
-                <label className="block font-bold text-zinc-700 dark:text-zinc-300 uppercase mb-1">
-                  Rasmlar ({roomImages.filter(u=>u.trim()).length} ta) — birinchisi asosiy:
-                </label>
-                <div className="space-y-2">
-                  {roomImages.map((url, idx) => (
-                    <div key={idx} className="flex gap-2 items-center">
-                      <div className="relative flex-1">
-                        <span className="absolute inset-y-0 left-0 pl-3 flex items-center text-zinc-400">
-                          <Image className="h-4 w-4" />
-                        </span>
-                        <input
-                          type="text"
-                          placeholder={idx === 0 ? "Asosiy rasm URL" : `Qo'shimcha rasm ${idx + 1} URL`}
-                          value={url}
-                          onChange={(e) => {
-                            const val = e.target.value;
-                            setRoomImages(prev => prev.map((u, i) => i === idx ? val : u));
-                          }}
-                          className="w-full pl-9 pr-3 py-2 bg-zinc-50 dark:bg-zinc-950 border border-zinc-350 rounded-lg text-xs text-zinc-900 dark:text-white font-medium placeholder-zinc-400"
-                        />
-                      </div>
-                      {url.trim() && (
-                        <img src={url} referrerPolicy="no-referrer" alt="" className="h-8 w-10 object-cover rounded border border-zinc-200 dark:border-zinc-800 shrink-0" onError={(e)=>{(e.currentTarget as HTMLImageElement).style.display='none'}} />
-                      )}
-                      {roomImages.length > 1 && (
-                        <button type="button" onClick={() => setRoomImages(prev => prev.filter((_,i) => i !== idx))}
-                          className="p-1 text-zinc-400 hover:text-red-500 shrink-0">
-                          <X className="h-3.5 w-3.5" />
-                        </button>
-                      )}
-                    </div>
-                  ))}
-
-                  <div className="flex gap-2">
-                    <button type="button" onClick={() => setRoomImages(prev => [...prev, ''])}
-                      className="flex-1 text-[10px] font-bold text-amber-600 hover:text-amber-700 flex items-center justify-center gap-1 bg-amber-50 dark:bg-zinc-900 px-2 py-1.5 rounded border border-amber-200/50 cursor-pointer">
-                      <Plus className="h-3 w-3" /> Rasm URL qo'shish
-                    </button>
-                    <label className="flex-1 relative flex items-center justify-center border-2 border-dashed border-zinc-200 dark:border-zinc-800 rounded-lg px-2 py-1.5 hover:bg-zinc-100 dark:hover:bg-zinc-900 transition-colors cursor-pointer bg-zinc-50 dark:bg-zinc-950">
-                      <input
-                        type="file"
-                        accept="image/*"
-                        onChange={(e) => {
-                          const file = e.target.files?.[0];
-                          if (file) {
-                            if (file.size > 3 * 1024 * 1024) {
-                              showNotification("Iltimos, rasm hajmi 3MB dan oshmasin!", "error");
-                              return;
-                            }
-                            const reader = new FileReader();
-                            reader.onloadend = () => {
-                              const result = reader.result as string;
-                              setRoomImages(prev => {
-                                const last = prev[prev.length - 1];
-                                if (!last.trim()) return prev.map((u, i) => i === prev.length - 1 ? result : u);
-                                return [...prev, result];
-                              });
-                            };
-                            reader.readAsDataURL(file);
-                          }
-                        }}
-                        className="absolute inset-0 opacity-0 cursor-pointer w-full h-full"
-                      />
-                      <div className="text-[10px] text-zinc-500 font-medium flex items-center gap-1 justify-center">
-                        <Upload className="h-3 w-3 text-zinc-400" />
-                        <span>Fayl yuklash</span>
-                      </div>
-                    </label>
-                  </div>
-                </div>
+                <label className="block font-bold text-zinc-700 dark:text-zinc-300 uppercase mb-1.5">Rasmlar (birinchisi asosiy):</label>
+                <MultiImageInput
+                  images={roomImages.filter(u => u.trim())}
+                  onChange={setRoomImages}
+                  onError={(msg) => showNotification(msg, 'error')}
+                />
               </div>
 
               <button
